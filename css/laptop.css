@@ -1,0 +1,19 @@
+/* Laptop Styles - Default styles are already defined in style.css */
+@media (min-width: 1024px) {
+    /* Laptop-specific overrides if needed */
+    .container {
+        max-width: 1200px;
+    }
+    
+    .prof-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cert-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}

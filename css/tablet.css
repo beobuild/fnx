@@ -1,0 +1,89 @@
+/* Tablet Styles */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0 30px;
+    }
+    
+    /* Navigation - Hide profile picture */
+    .profile-pic {
+        display: none;
+    }
+    
+    .nav-container {
+        justify-content: space-around;
+        padding: 20px 30px;
+    }
+    
+    .nav-item {
+        margin: 0 20px;
+    }
+    
+    /* Personal Info - Keep 2 columns but adjust spacing */
+    .info-grid {
+        gap: 40px;
+    }
+    
+    /* Professional Info - 2 columns instead of 3 */
+    .prof-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    
+    .prof-section {
+        padding: 20px 15px;
+    }
+    
+    /* Certificates - Keep layout but adjust image sizes */
+    .cert-item img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .cert-item {
+        padding: 20px;
+        min-height: 130px;
+    }
+    
+    /* Projects - Keep 3 columns but adjust content */
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    .project-content {
+        padding: 20px;
+    }
+    
+    .project-title {
+        font-size: 14px;
+    }
+    
+    .desc-text {
+        font-size: 12px;
+    }
+    
+    /* Footer */
+    .footer-links {
+        gap: 30px;
+    }
+    
+    .footer-link {
+        font-size: 13px;
+    }
+    
+    .footer-link i {
+        font-size: 18px;
+    }
+    
+    /* Email form responsive */
+    .email-form {
+        padding: 35px 25px;
+    }
+    
+    /* Interactive features */
+    .view-more-btn {
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+}
